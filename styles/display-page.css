@@ -1,0 +1,42 @@
+body {
+	padding: 30px;
+	font-size:	0;
+}
+.container	{
+	display: inline-block;
+	height: 500px;
+	width: 800px;
+}
+.inner {
+	display: inline-block;
+}
+.inner-one {
+	background-color: green;
+	height: 200px;
+	width: 50%;
+	border: 1px black solid;
+}
+.inner-two {
+	background-color: blue;
+	height: 200px;
+	width: 50%;
+	border: 1px black solid;
+}
+.inner-three {
+	background-color: grey;
+	height: 300px;
+	width: 33.33%;
+	border: 1px black solid;
+}
+.inner-four {
+	background-color: black;
+	height: 300px;
+	width: 33.33%;
+	border: 1px black solid;
+}
+.inner-five	{
+	background-color: orange;
+	height: 300px;
+	width: 33.33%;
+	border: 1px black solid;
+}
