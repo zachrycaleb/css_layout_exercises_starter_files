@@ -1,42 +1,40 @@
-body {
-	padding: 30px;
-	font-size:	0;
+main {
+  font-size: 0;
 }
-.container	{
-	display: inline-block;
-	height: 500px;
-	width: 800px;
+.box-parent {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
-.inner {
-	display: inline-block;
+.box {
+  border: 1px solid black;
+  display: inline-block;
 }
-.inner-one {
-	background-color: green;
-	height: 200px;
-	width: 50%;
-	border: 1px black solid;
+.box_half {
+  width: 50%;
+  height: 200px;
 }
-.inner-two {
-	background-color: blue;
-	height: 200px;
-	width: 50%;
-	border: 1px black solid;
+.box_third {
+  width: 33.33%;
+  height: 300px;
 }
-.inner-three {
-	background-color: grey;
-	height: 300px;
-	width: 33.33%;
-	border: 1px black solid;
+.black {
+  background-color: black;
+  border: 1px solid;
 }
-.inner-four {
-	background-color: black;
-	height: 300px;
-	width: 33.33%;
-	border: 1px black solid;
+.green {
+  background-color: green;
 }
-.inner-five	{
-	background-color: orange;
-	height: 300px;
-	width: 33.33%;
-	border: 1px black solid;
+.grey {
+  background-color: grey;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange
+}
+.centered {
+  text-align: center;
 }
