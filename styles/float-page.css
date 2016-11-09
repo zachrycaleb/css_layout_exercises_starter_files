@@ -10,13 +10,19 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-
-.img {
+.image {
+  width: 300px;
+}
+.one, .two {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.one {
 	float: left;
-	padding: 10px
+	padding: 15px
 }
 
-.img2 {
+.two {
 	float: right;
-	padding: 10px;
+	padding: 15px;
 }
